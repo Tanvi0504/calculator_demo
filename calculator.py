@@ -9,6 +9,8 @@ def multiply (a,b):
 
 def sub(a,b):
     return a-b
+def division(a,b):
+    return a/b
 
 number1 = int(input("Enter First number: "))
 number2 = int(input("Enter second number: "))
@@ -20,7 +22,7 @@ elif (operator == "-"):
 elif (operator == "*"):
     print(multiply(number1,number2))
 elif (operator == "/"):
-    print()
+    print(division(number1,number2))
 else:
     print("Unknown Operator")
     
