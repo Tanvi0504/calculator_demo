@@ -1,9 +1,10 @@
-# This is the caluculator demo to learn git hub workflow
+ # This is the caluculator demo to learn git hub workflow
 
 
 
 def add(a,b):
     return a+b
+
 def multiply (a,b):
     return a*b
 
