@@ -1,9 +1,10 @@
-# This is the caluculator demo to learn git hub workflow
+ # This is the caluculator demo to learn git hub workflow
 
 
 
 def add(a,b):
     return a+b
+
 def multiply (a,b):
     return a*b
 def division(a,b):
@@ -11,6 +12,8 @@ def division(a,b):
 
 def sub(a,b):
     return a-b
+def division(a,b):
+    return a/b
 
 number1 = int(input("Enter First number: "))
 number2 = int(input("Enter second number: "))
